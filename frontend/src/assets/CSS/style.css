@@ -1,0 +1,418 @@
+/*------------
+Fonts
+-------------*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/*------------
+Global css
+-------------*/
+:roobt {
+  --unnamed-color-707070: #707070;
+  --unnamed-color-f5f5f5: #f5f5f5;
+  --unnamed-color-455a64: #455a64;
+  --unnamed-color-000000: #000000;
+  --unnamed-color-f97270: #f97270;
+  --unnamed-color-body-ffffff: #ffffff;
+
+  --shadow-black-100: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --shadow-black-300: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+body {
+  font-family: Josefin Sans, Bold;
+  font-size: 15px;
+  font-weight: 400;
+  overflow-x: hidden;
+  background-color: #f7f7f7;
+  line-height: 1.5;
+  font-family: "Josefin Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn-radius {
+  background-color: #f97270;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 26px;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  opacity: 1;
+}
+
+.btn-normal {
+  background-color: #f97270;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  opacity: 1;
+}
+
+.btn-1:focus {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+/*------------
+Navbar
+-------------*/
+.navbar {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 20px 0;
+  border: 1px solid #707070;
+  background-color: #f97270;
+  opacity: 1;
+}
+
+.navbar > .container {
+  padding: 15px 0;
+}
+
+.navbar .navbar-brand {
+  top: 38%;
+  left: 132px;
+  width: 172px;
+  height: 53px;
+  opacity: 1;
+}
+
+.navbar .nav-item {
+  margin-left: 55px;
+}
+
+.navbar .nav-item .nav-link {
+  color: #ffffff;
+  text-transform: capitalize;
+  font: normal normal bold Josefin Sans;
+  letter-spacing: 0px;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px 0;
+  opacity: 1;
+  position: relative;
+}
+
+.navbar .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 1px;
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+  transform: scale(0);
+}
+
+.navbar .nav-item .nav-link:hover::before {
+  transform: scale(1);
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  margin-bottom: 60px;
+}
+
+.section-title h5 {
+  font-size: 15px;
+  text-align: center;
+  color: #f97270;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.section-title > h5 {
+  text-shadow: 08px 4px 05px #f97270;
+}
+/*------------
+Home Section
+-------------*/
+.home {
+  min-height: 100vh;
+  padding: 150px 0;
+}
+
+.home-texte h1 {
+  color: #000000;
+  letter-spacing: 0px;
+  font: Josenfin Sans, bold;
+  font-size: 60px;
+  margin: 0 0 20px;
+  opacity: 1;
+}
+
+.home-texte p {
+  font: normal normal normal 25px Josenfin Sans, Regular;
+  color: #455a64;
+  letter-spacing: 0px;
+  margin: 0;
+  font-weight: bold;
+  opacity: 1;
+}
+
+.home .home-btn {
+  margin-top: 40px;
+}
+
+.home-img img {
+  max-width: 426px;
+  width: 100%;
+}
+
+/*------------
+Card Section
+-------------*/
+.card-margin {
+  margin-top: 6%;
+}
+
+.btn-card {
+  margin-top: 40%;
+  border-radius: 5px;
+}
+
+.card-one {
+  width: 252%;
+  height: 175px;
+  padding-top: 35px;
+  background: #ffffff;
+  box-shadow: 0px 5px 27px rgb(52 87 220 / 13%);
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-bottom: 40px;
+}
+.cardh3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #202842;
+}
+.progress {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  width: 262px;
+  height: 4px;
+  background: #f97270;
+  border-radius: 7.5px;
+  overflow: hidden;
+}
+
+.card-progress {
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 17px;
+  width: 84%;
+  height: 64%;
+  background: #fff;
+  z-index: 999;
+  right: 28%;
+  top: -20%;
+}
+
+.container-service {
+  margin-left: -3px;
+}
+
+.mt-service {
+  margin-top: 9%;
+}
+
+.img-ball-services {
+  margin-left: -30%;
+  width: 60%;
+}
+
+/* card-design */
+.card-design {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 21px;
+  width: 120%;
+  height: 90%;
+  background-color: #f97270;
+  color: #fff;
+}
+
+.icon {
+  width: 35%;
+  margin-bottom: 12px;
+}
+
+.dotted {
+  border: 1px solid #ffffff;
+  width: 20px;
+  margin-left: 12px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.p-design {
+  margin-bottom: 10%;
+}
+
+.btn-service {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.align {
+  left: 5%;
+  position: relative;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 17px;
+  width: 80%;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.novo_container {
+  row-gap: 2rem;
+}
+
+.novo_box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.novo_box:hover .novo_link {
+  bottom: 0;
+}
+
+.novo_link {
+  position: absolute;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(229, 89, 71, 0.404);
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+/* Portifolio */
+.button {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.circle {
+  font-size: 36px;
+  margin-left: 5vh;
+  cursor: pointer;
+}
+
+.img-fundo {
+  background-image: url("C:\Users\ffehb\Desktop\T10Bank\img\svg\mapa.png");
+}
+
+/* formulario */
+.formulario {
+  width: 120vh;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+.formulario input {
+  display: block;
+}
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid #707070;
+}
+.formulario textarea {
+  min-height: 120px;
+  max-height: 120px;
+  min-width: 100%;
+  max-width: 120%;
+}
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus {
+  border: 2px solid #707070;
+}
+.formulario input[type="submit"] {
+  width: 200px;
+  margin: 0 auto;
+  background: none;
+  border: 1px solid #707070;
+  color: #707070;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.formulario input[type="submit"] {
+  background: #f97270;
+  color: #ffffff;
+  border: none;
+}
+
+.img-ball {
+  margin-left: 45%;
+  width: 50%;
+}
+
+.img-about-us {
+  margin-left: -3%;
+  margin-top: -56%;
+}
+
+.message-padding {
+  padding: 3px;
+}

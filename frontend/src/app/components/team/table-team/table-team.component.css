@@ -1,0 +1,62 @@
+table {
+  width: 100%;
+}
+
+.edit {
+  margin-right: 10px;
+}
+
+.edit > i {
+  color: green;
+}
+
+.delete > i {
+  color: #ccc;
+  margin-left: 40px;
+}
+
+.league-selection {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin-left: 3rem;
+}
+
+.font-smaller {
+  margin-bottom: -2px;
+  font-size: smaller;
+}
+
+.img-up {
+  width: 44px;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.card-spots {
+  background-color: #ccc;
+  border: none;
+  border-radius: 11px;
+  padding: 6px;
+  margin-right: 38px;
+}
+
+.index {
+  padding-left: 65px !important;
+}
+
+.date-time {
+  color: grey;
+}
+
+.table-selection {
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.header {
+  display: flex;
+  margin-left: 4rem;
+  width: 100% !important;
+  height: 80px;
+  align-items: center;
+  background-color: #0a0f1e !important;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.header .logo {
+  max-height: 32px;
+}
+
+.header .title-group {
+  padding-left: 25px;
+}
+
+.header .title-group i {
+  padding-right: 5px;
+}
+
+.wallOrange {
+  position: absolute;
+  margin: -17px -3px;
+  width: 4px;
+  height: 30px;
+  top: 44px;
+  border-radius: 8px;
+  background-color: #e87c00;
+}
+
+.nameUser {
+  color: #fff;
+  margin-left: 12px;
+  margin-top: 2px;
+}
+
+/* campo de pesquisa */
+
+.search-bar {
+  position: absolute;
+  color: #fff;
+  left: 27rem;
+  top: 1rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 1rem 20rem 1rem 1rem;
+  background-color: #1b202e;
+  outline: 0;
+}
+
+#search-icon {
+  font-size: 16px;
+  color: #ccc;
+  position: relative;
+  float: right;
+  left: 51rem;
+  bottom: 15px;
+}
+
+.user-notification {
+  position: absolute;
+  left: 68rem;
+  top: 6px;
+  cursor: pointer;
+}

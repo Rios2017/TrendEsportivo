@@ -1,0 +1,90 @@
+<table mat-table [dataSource]="products">
+    <!-- Id Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>Id</th>
+      <td mat-cell *matCellDef="let row">{{row.id}}</td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef>Name</th>
+      <td mat-cell *matCellDef="let row">{{row.name}}</td>
+    </ng-container>   
+
+    <!-- Price Column -->
+    <ng-container matColumnDef="price">
+      <th mat-header-cell *matHeaderCellDef>Preço</th>
+      <td mat-cell *matCellDef="let row">{{row.price | currency: 'BRL'}}</td>
+    </ng-container>   
+    
+    <!-- Action Column -->
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef>Ações</th>
+      <td mat-cell *matCellDef="let row">
+        <a routerLink="/products/update/{{ row.id }}" class="edit">
+          <i class="material-icons">edit</i>
+        </a>
+       <a routerLink="/products/delete/{{ row.id }}" class="delete">
+          <i class="material-icons">delete</i>
+        </a>
+      </td>
+    </ng-container>
+    
+    <!-- Action Column -->
+      <ng-container matColumnDef="teste1">
+        <th mat-header-cell *matHeaderCellDef>teste1</th>
+        <td mat-cell *matCellDef="let row">
+          <a routerLink="/products/update/{{ row.id }}" class="edit">
+            <i class="material-icons">edit</i>
+          </a>
+          <a routerLink="/products/delete/{{ row.id }}" class="delete">
+            <i class="material-icons">delete</i>
+          </a>
+        </td>
+      </ng-container>
+
+    <!-- Action Column -->
+      <ng-container matColumnDef="teste2">
+        <th mat-header-cell *matHeaderCellDef>teste2</th>
+        <td mat-cell *matCellDef="let row">
+            <a routerLink="/products/update/{{ row.id }}" class="edit">
+              <i class="material-icons">edit</i>
+            </a>
+            <a routerLink="/products/delete/{{ row.id }}" class="delete">
+              <i class="material-icons">delete</i>
+            </a>
+        </td>
+      </ng-container>
+
+    <!-- Action Column -->
+      <ng-container matColumnDef="teste3">
+        <th mat-header-cell *matHeaderCellDef>teste3</th>
+        <td mat-cell *matCellDef="let row">
+          <a routerLink="/products/update/{{ row.id }}" class="edit">
+            <i class="material-icons">edit</i>
+          </a>
+          <a routerLink="/products/delete/{{ row.id }}" class="delete">
+            <i class="material-icons">delete</i>
+          </a>
+        </td>
+      </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+
+export class ProductReadComponent implements OnInit {
+
+  products: Product[] | undefined
+  displayedColumns = ['id', 'name', 'price', 'action', 'teste1', 'teste2', 'teste3']
+
+  constructor(private productService: ProductService) { }
+
+  ngOnInit(): void {
+    this.productService.read().subscribe(products => {
+      this.products = products
+      //console.log(products);
+    })
+  }
+}

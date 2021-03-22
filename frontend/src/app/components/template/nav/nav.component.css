@@ -1,0 +1,96 @@
+.nav-position {
+  width: 4rem !important;
+  height: 100%;
+  top: 0px !important;
+  bottom: 0px !important;
+  transform: none !important;
+  visibility: visible !important;
+  overflow-x: hidden;
+}
+
+.logo {
+  position: relative;
+  width: 4rem;
+  bottom: 1rem;
+}
+
+.sidenav {
+  background-color: #070a14;
+  width: 200px;
+}
+
+.icons {
+  color: #fff;
+}
+
+.icons:hover {
+  color: #e87c00;
+  margin-right: 8px;
+}
+
+.icons::before {
+  content: "";
+  position: absolute;
+  border-left: 3px solid;
+  margin: -2px -16px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #e87c00;
+  transition: all 0.5s ease;
+  transform: scale(0);
+}
+
+.icons:hover::before {
+  transform: scale(1);
+}
+
+.sidenav a {
+  color: #fff;
+}
+
+.sidenav i {
+  padding-right: 10px;
+}
+
+.content {
+  padding: 30px;
+  background-color: #fff;
+  margin-left: 96px !important;
+}
+
+/* .selection {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #e87c00;
+  border-radius: 50px;
+} */
+
+/* mandar para o componente */
+.nav-position2 {
+  width: 3rem !important;
+  height: 100%;
+  top: 80px !important;
+  left: 64px;
+  bottom: 0px !important;
+  transform: none !important;
+  visibility: visible !important;
+}
+
+.sidenav2 {
+  background-color: #121830;
+  width: 200px;
+}
+
+.logo-liga {
+  width: 39px;
+  right: 11px;
+  position: relative;
+}
+
+img {
+  border-radius: 50px;
+}
+
+.position {
+  margin-bottom: 1rem;
+}

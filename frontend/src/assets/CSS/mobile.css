@@ -1,0 +1,111 @@
+/* RESPOSIVEL - RETRATO */
+@media(width: 382px) and (height: 605px){
+}
+
+/* RESPONSIVEL - PAISAGEM */
+@media(width: 605px) and (height: 382px){
+}
+
+
+/* FULLHD */
+@media(width: 1920px) and (height: 1080px){
+}
+
+
+/* NEXUS 10 - RETRATO */
+@media(width: 800px) and (height: 1280px){
+}
+
+/* NEXUS 10 - PAISAGEM */
+@media(width: 1280px) and (height: 800px){
+}
+
+
+
+/* GALAXY S5 - RETRATO */
+@media(width: 360px) and (height: 640px){
+}
+
+/* GALAXY S5 - PAISAGEM */
+@media(width: 640px) and (height: 360px){
+}
+
+
+
+/* PIXEL 2 - RETRATO */
+@media(width: 411px) and (height: 731px){
+}
+
+/* PIXEL 2 - PAISAGEM */
+@media(width: 731px) and (height: 411px){
+}
+
+
+
+/* PIXEL 2 xl - RETRATO */
+@media(width: 411px) and (height: 823px){
+}
+
+/* PIXEL 2 xl- PAISAGEM */
+@media(width: 823px) and (height: 411px){
+}
+
+
+
+/* iPHONE 5/SE - RETRATO */
+@media(width: 320px) and (height: 568px){
+}
+
+/* iPHONE 5/SE- PAISAGEM */
+@media(width: 568px) and (height: 320px){
+}
+
+
+
+/* iPHONE 6/7/8 - RETRATO */
+@media(width: 375px) and (height: 667px){
+}
+
+/* iPHONE 6/7/8 - PAISAGEM */
+@media(width: 667px) and (height: 375px){
+}
+
+
+
+/* iPHONE 6/7/8 PLUS - RETRATO */
+@media(width: 414px) and (height: 736px){
+}
+
+/* iPHONE 6/7/8 PLUS - PAISAGEM */
+@media(width: 736px) and (height: 414px){
+}
+
+
+
+/* iPHONE X - RETRATO */
+@media(width: 375px) and (height: 812px){
+}
+
+/* iPHONE X - PAISAGEM */
+@media(width: 812px) and (height: 375px){
+}
+
+
+
+/* iPAD - RETRATO */
+@media(width: 1024px) and (height: 768px){
+}
+
+/* iPAD - PAISAGEM */
+@media(width: 768px) and (height: 1024px){
+}
+
+
+
+/* iPAD PRO - RETRATO */
+@media(width: 1024px) and (height: 1366px){
+}
+
+/* iPAD PRO - PAISAGEM */
+@media(width: 1366px) and (height: 1024px){
+}

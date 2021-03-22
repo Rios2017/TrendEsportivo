@@ -1,0 +1,32 @@
+{
+  "Team": [
+    {
+      "id": 1,
+      "name": "Real Madrid",
+      "team": "Barcelina",
+      "action": "",
+      "spots": "2 : 1"
+    },
+    {
+      "id": 2,
+      "name": "Real Madrid",
+      "team": "Barcelina",
+      "action": "",
+      "spots": "2 : 1"
+    },
+    {
+      "id": 3,
+      "name": "Real Madrid",
+      "team": "Barcelina",
+      "action": "",
+      "spots": "2 : 1"
+    },
+    { 
+      "id": 4,
+      "name": "Real Madrid",
+      "team": "Barcelina",
+      "action": "",
+      "spots": "2 : 1"
+    }
+  ]
+}

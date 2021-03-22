@@ -1,0 +1,16 @@
+Palheta de cores Playscores
+
+Cabeçalho - #0a0f1e
+ busca - #1b202e
+Menu - #070a14
+submenu - #121830
+
+Seleção grid - #f4f5f8
+
+Ícones Selecionados - #e87c00
+Ícones sem Seleção - #575d72
+icone leão - #1a1d21
+Cabeçalho interno - #e8e8e8
+
+Fonte Título - #959595
+Fonte subtítulo - #c1c0c0
